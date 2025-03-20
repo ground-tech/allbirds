@@ -1,5 +1,8 @@
 # React + Vite
 
+Here is the preview link of the project
+https://allbird-clone.netlify.app/
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
