@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+
+
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Geograph', sans-serif;
+  }
+  
+.swiper-button-next,
+.swiper-button-prev {
+  color: #000 !important; 
+  font-size: 20px !important;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 20px !important;
+  font-weight: 700; 
+}
+
+
+.swiper-button-next,
+.swiper-button-prev {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 50%;
+  width: 40px !important;
+  height: 40px !important;
+}
+.swiper-button-prev.swiper-button-disabled, .swiper-button-next.swiper-button-disabled {
+    opacity: 0 !important;
+}
+
+
+@media (max-width: 768px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none !important;
+  }
+}
+  
